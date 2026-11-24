@@ -1,0 +1,28 @@
+# Local operating system files
+.DS_Store
+Thumbs.db
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded datasets and model artifacts
+/data/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
